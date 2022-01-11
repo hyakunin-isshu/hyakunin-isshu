@@ -8,6 +8,7 @@
 <!-- TOC -->
 
 - [1. About](#1-about)
+  - [What Is Hyakunin Isshu?](#what-is-hyakunin-isshu)
   - [1.1. Introduction](#11-introduction)
     - [1.1.1. Install Library](#111-install-library)
     - [1.1.2. Import It](#112-import-it)
@@ -21,6 +22,14 @@
 
 `HyakuninIsshu` is an open-sourced Dart library.</br>
 With `HyakuninIsshu`, you can easily use resources of Hyakunin Isshu on your application.
+
+## What Is Hyakunin Isshu?
+
+`Hyakunin Isshu (百人一首)` is a classical Japanese anthology of one hundred Japanese **_waka_** by one hundred poets. Hyakunin isshu can be translated to **_"one hundred people, one poem each"_**; it can also refer to **_the card game of uta-garuta_**, which uses a deck composed of cards based on the Hyakunin Isshu.
+
+The most famous and standard version was compiled by Fujiwara no Teika (1162–1241) while he lived in the Ogura district of Kyoto. It is therefore also known as **_Ogura Hyakunin Isshu (小倉百人一首)_**.
+
+You can check more deitails [here](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu)!
 
 ## 1.1. Introduction
 
