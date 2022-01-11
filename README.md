@@ -1,4 +1,4 @@
-![hyakunin_isshu_logo](https://user-images.githubusercontent.com/13072231/148918545-110c0dcc-6eb1-4d8e-9d80-8beaea57f53f.png)
+![hyakunin_isshu_logo](https://user-images.githubusercontent.com/13072231/148919549-5e468cfa-b5e0-4813-8123-dd1370b59d89.png)
 
 [![pub package](https://img.shields.io/pub/v/hyakunin_isshu.svg)](https://pub.dev/packages/hyakunin_isshu)
 
