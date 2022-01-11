@@ -17,7 +17,7 @@
 # 1. About
 
 `HyakuninIsshu` is an open-sourced Dart library.</br>
-With `HyakuninIsshu`, you can easily use resources of Hyakun Inisshu on your application.
+With `HyakuninIsshu`, you can easily use resources of Hyakunin Isshu on your application.
 
 ## 1.1. Introduction
 
@@ -60,7 +60,7 @@ void main() async {
     return;
   }
 
-  //! Well, the resources of the Hyakunin Isshu are stored in GitHub repository,
+  //! The resources of the Hyakunin Isshu are stored in GitHub repository,
   //! so it will always succeed unless GitHub's server goes down!
 
   for (final card in response.box.cards) {
