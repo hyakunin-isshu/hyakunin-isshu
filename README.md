@@ -1,6 +1,9 @@
 ![hyakunin_isshu_logo](https://user-images.githubusercontent.com/13072231/148921690-0f0e9ec9-5b43-4ea0-8068-bbe20767e39b.png)
 
 [![pub package](https://img.shields.io/pub/v/hyakunin_isshu.svg)](https://pub.dev/packages/hyakunin_isshu)
+[![codecov](https://codecov.io/gh/hyakunin-isshu/hyakunin-isshu/branch/main/graph/badge.svg?token=1GHUFC19BR)](https://codecov.io/gh/hyakunin-isshu/hyakunin-isshu)
+[![Analyzer](https://github.com/hyakunin-isshu/hyakunin-isshu/actions/workflows/analyzer.yml/badge.svg)](https://github.com/hyakunin-isshu/hyakunin-isshu/actions/workflows/analyzer.yml)
+[![Test](https://github.com/hyakunin-isshu/hyakunin-isshu/actions/workflows/test.yml/badge.svg)](https://github.com/hyakunin-isshu/hyakunin-isshu/actions/workflows/test.yml)
 
 <!-- TOC -->
 
