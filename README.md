@@ -8,13 +8,13 @@
 <!-- TOC -->
 
 - [1. About](#1-about)
-  - [What Is Hyakunin Isshu?](#what-is-hyakunin-isshu)
-  - [1.1. Introduction](#11-introduction)
-    - [1.1.1. Install Library](#111-install-library)
-    - [1.1.2. Import It](#112-import-it)
-    - [1.1.3. Use HyakuninIsshu](#113-use-hyakuninisshu)
-  - [1.2. License](#12-license)
-  - [1.3. More Information](#13-more-information)
+  - [1.1. What Is Hyakunin Isshu?](#11-what-is-hyakunin-isshu)
+  - [1.2. Introduction](#12-introduction)
+    - [1.2.1. Install Library](#121-install-library)
+    - [1.2.2. Import It](#122-import-it)
+    - [1.2.3. Use HyakuninIsshu](#123-use-hyakuninisshu)
+  - [1.3. License](#13-license)
+  - [1.4. More Information](#14-more-information)
 
 <!-- /TOC -->
 
@@ -23,7 +23,7 @@
 `HyakuninIsshu` is an open-sourced Dart library.</br>
 With `HyakuninIsshu`, you can easily use resources of Hyakunin Isshu on your application.
 
-## What Is Hyakunin Isshu?
+## 1.1. What Is Hyakunin Isshu?
 
 `Hyakunin Isshu (百人一首)` is a classical Japanese anthology of one hundred Japanese **_waka_** by one hundred poets. Hyakunin isshu can be translated to **_"one hundred people, one poem each"_**; it can also refer to **_the card game of uta-garuta_**, which uses a deck composed of cards based on the Hyakunin Isshu.
 
@@ -31,9 +31,9 @@ The most famous and standard version was compiled by Fujiwara no Teika (1162–1
 
 You can check more deitails [here](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu)!
 
-## 1.1. Introduction
+## 1.2. Introduction
 
-### 1.1.1. Install Library
+### 1.2.1. Install Library
 
 **_With Dart:_**
 
@@ -47,13 +47,13 @@ You can check more deitails [here](https://en.wikipedia.org/wiki/Ogura_Hyakunin_
  flutter pub add hyakunin_isshu
 ```
 
-### 1.1.2. Import It
+### 1.2.2. Import It
 
 ```dart
 import 'package:hyakunin_isshu/hyakunin_isshu.dart';
 ```
 
-### 1.1.3. Use HyakuninIsshu
+### 1.2.3. Use HyakuninIsshu
 
 ```dart
 import 'package:hyakunin_isshu/hyakunin_isshu.dart';
@@ -81,7 +81,7 @@ void main() async {
 }
 ```
 
-## 1.2. License
+## 1.3. License
 
 ```license
 Copyright (c) 2022, Kato Shinya. All rights reserved.
@@ -89,7 +89,7 @@ Use of this source code is governed by a
 BSD-style license that can be found in the LICENSE file.
 ```
 
-## 1.3. More Information
+## 1.4. More Information
 
 `HyakuninIsshu` was designed and implemented by **_Kato Shinya_**.
 
