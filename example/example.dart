@@ -18,7 +18,7 @@ void main() async {
     return;
   }
 
-  //! Well, the resources of the Hyakunin Isshu are stored in GitHub repository,
+  //! The resources of the Hyakunin Isshu are stored in GitHub repository,
   //! so it will always succeed unless GitHub's server goes down!
 
   for (final card in response.box.cards) {
