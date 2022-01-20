@@ -16,7 +16,7 @@ class BoxImpl implements Box {
   final List<Card> cards;
 
   @override
-  Card? findById({required int id}) {
+  findById({required int id}) {
     for (final card in cards) {
       if (card.id == id) {
         return card;
@@ -27,7 +27,7 @@ class BoxImpl implements Box {
   }
 
   @override
-  Card? findByKami({required String value}) {
+  findByKami({required String value}) {
     for (final card in cards) {
       if (card.kami == value) {
         return card;
@@ -38,7 +38,7 @@ class BoxImpl implements Box {
   }
 
   @override
-  Card? findBySimo({required String value}) {
+  findBySimo({required String value}) {
     for (final card in cards) {
       if (card.simo == value) {
         return card;
@@ -49,7 +49,7 @@ class BoxImpl implements Box {
   }
 
   @override
-  Card? findByKamiKana({required String value}) {
+  findByKamiKana({required String value}) {
     for (final card in cards) {
       if (card.kamiKana == value) {
         return card;
@@ -60,7 +60,7 @@ class BoxImpl implements Box {
   }
 
   @override
-  Card? findBySimoKana({required String value}) {
+  findBySimoKana({required String value}) {
     for (final card in cards) {
       if (card.simoKana == value) {
         return card;
@@ -71,7 +71,29 @@ class BoxImpl implements Box {
   }
 
   @override
-  Card? findByAuthor({required String value}) {
+  findByKamiRomaji({required String value}) {
+    for (final card in cards) {
+      if (card.kamiRomaji == value) {
+        return card;
+      }
+    }
+
+    return null;
+  }
+
+  @override
+  findBySimoRomaji({required String value}) {
+    for (final card in cards) {
+      if (card.simoRomaji == value) {
+        return card;
+      }
+    }
+
+    return null;
+  }
+
+  @override
+  findByAuthor({required String value}) {
     for (final card in cards) {
       if (card.author == value) {
         return card;
@@ -82,7 +104,7 @@ class BoxImpl implements Box {
   }
 
   @override
-  Card? findByAuthorKana({required String value}) {
+  findByAuthorKana({required String value}) {
     for (final card in cards) {
       if (card.authorKana == value) {
         return card;
@@ -93,7 +115,7 @@ class BoxImpl implements Box {
   }
 
   @override
-  List<Card> findAllByKami({required String value}) {
+  findAllByKami({required String value}) {
     final foundCards = <Card>[];
     for (final card in cards) {
       if (card.kami == value) {
@@ -105,7 +127,7 @@ class BoxImpl implements Box {
   }
 
   @override
-  List<Card> findAllBySimo({required String value}) {
+  findAllBySimo({required String value}) {
     final foundCards = <Card>[];
     for (final card in cards) {
       if (card.simo == value) {
@@ -117,7 +139,7 @@ class BoxImpl implements Box {
   }
 
   @override
-  List<Card> findAllByKamiKana({required String value}) {
+  findAllByKamiKana({required String value}) {
     final foundCards = <Card>[];
     for (final card in cards) {
       if (card.kamiKana == value) {
@@ -129,7 +151,7 @@ class BoxImpl implements Box {
   }
 
   @override
-  List<Card> findAllBySimoKana({required String value}) {
+  findAllBySimoKana({required String value}) {
     final foundCards = <Card>[];
     for (final card in cards) {
       if (card.simoKana == value) {
@@ -141,7 +163,31 @@ class BoxImpl implements Box {
   }
 
   @override
-  List<Card> findAllByAuthor({required String value}) {
+  findAllByKamiRomaji({required String value}) {
+    final foundCards = <Card>[];
+    for (final card in cards) {
+      if (card.kamiRomaji == value) {
+        foundCards.add(card);
+      }
+    }
+
+    return foundCards;
+  }
+
+  @override
+  findAllBySimoRomaji({required String value}) {
+    final foundCards = <Card>[];
+    for (final card in cards) {
+      if (card.simoRomaji == value) {
+        foundCards.add(card);
+      }
+    }
+
+    return foundCards;
+  }
+
+  @override
+  findAllByAuthor({required String value}) {
     final foundCards = <Card>[];
     for (final card in cards) {
       if (card.author == value) {
@@ -153,7 +199,7 @@ class BoxImpl implements Box {
   }
 
   @override
-  List<Card> findAllByAuthorKana({required String value}) {
+  findAllByAuthorKana({required String value}) {
     final foundCards = <Card>[];
     for (final card in cards) {
       if (card.authorKana == value) {

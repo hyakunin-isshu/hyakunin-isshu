@@ -10,6 +10,8 @@ class Card {
     required this.simo,
     required this.kamiKana,
     required this.simoKana,
+    required this.kamiRomaji,
+    required this.simoRomaji,
     required this.author,
     required this.authorKana,
     required this.pictureUrl,
@@ -30,6 +32,12 @@ class Card {
   /// The simo phrase in kana
   final String simoKana;
 
+  /// The kami phrase in romaji
+  final String kamiRomaji;
+
+  /// The simo phrase in romaji
+  final String simoRomaji;
+
   /// The author
   final String author;
 
@@ -41,7 +49,7 @@ class Card {
 
   @override
   String toString() {
-    return 'Card(id: $id, kami: $kami, simo: $simo, kamiKana: $kamiKana, simoKana: $simoKana, author: $author, authorKana: $authorKana, pictureUrl: $pictureUrl)';
+    return 'Card(id: $id, kami: $kami, simo: $simo, kamiKana: $kamiKana, simoKana: $simoKana, kamiRomaji: $kamiRomaji, simoRomaji: $simoRomaji, author: $author, authorKana: $authorKana, pictureUrl: $pictureUrl)';
   }
 
   @override
@@ -54,6 +62,8 @@ class Card {
         other.simo == simo &&
         other.kamiKana == kamiKana &&
         other.simoKana == simoKana &&
+        other.kamiRomaji == kamiRomaji &&
+        other.simoRomaji == simoRomaji &&
         other.author == author &&
         other.authorKana == authorKana &&
         other.pictureUrl == pictureUrl;
@@ -66,6 +76,8 @@ class Card {
         simo.hashCode ^
         kamiKana.hashCode ^
         simoKana.hashCode ^
+        kamiRomaji.hashCode ^
+        simoRomaji.hashCode ^
         author.hashCode ^
         authorKana.hashCode ^
         pictureUrl.hashCode;

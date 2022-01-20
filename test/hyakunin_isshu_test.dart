@@ -23,6 +23,8 @@ void main() {
       expect(card.simo.isNotEmpty, true);
       expect(card.kamiKana.isNotEmpty, true);
       expect(card.simoKana.isNotEmpty, true);
+      expect(card.kamiRomaji.isNotEmpty, true);
+      expect(card.simoRomaji.isNotEmpty, true);
       expect(card.author.isNotEmpty, true);
       expect(card.authorKana.isNotEmpty, true);
       expect(card.pictureUrl.isNotEmpty, true);

@@ -34,6 +34,12 @@ abstract class Box {
   /// Returns card linked to simo kana [value], otherwise null.
   Card? findBySimoKana({required String value});
 
+  /// Returns card linked to kami romaji [value], otherwise null.
+  Card? findByKamiRomaji({required String value});
+
+  /// Returns card linked to simo romaji [value], otherwise null.
+  Card? findBySimoRomaji({required String value});
+
   /// Returns card linked to author [value], otherwise null.
   Card? findByAuthor({required String value});
 
@@ -51,6 +57,12 @@ abstract class Box {
 
   /// Returns cards list linked to simo kana [value], otherwise empty.
   List<Card> findAllBySimoKana({required String value});
+
+  /// Returns cards list linked to kami romaji [value], otherwise empty.
+  List<Card> findAllByKamiRomaji({required String value});
+
+  /// Returns cards list linked to simo romaji [value], otherwise empty.
+  List<Card> findAllBySimoRomaji({required String value});
 
   /// Returns cards list linked to author [value], otherwise empty.
   List<Card> findAllByAuthor({required String value});

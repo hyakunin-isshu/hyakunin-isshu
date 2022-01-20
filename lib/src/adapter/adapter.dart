@@ -60,6 +60,8 @@ class Adapter {
           simo: json.getString(key: 'simo'),
           kamiKana: json.getString(key: 'kamiKana'),
           simoKana: json.getString(key: 'simoKana'),
+          kamiRomaji: json.getString(key: 'kamiRomaji'),
+          simoRomaji: json.getString(key: 'simoRomaji'),
           author: json.getString(key: 'author'),
           authorKana: json.getString(key: 'authorKana'),
           pictureUrl: json.getString(key: 'image'),
