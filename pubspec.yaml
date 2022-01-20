@@ -1,6 +1,6 @@
 name: hyakunin_isshu
 description: This library has been developed to make it easy to use Japanese Hyakunin Isshu in Dart and Flutter applications.
-version: 1.1.0
+version: 1.2.0
 homepage: https://github.com/hyakunin-isshu/hyakunin-isshu
 
 environment:
